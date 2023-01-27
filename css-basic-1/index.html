@@ -1,0 +1,710 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>CSS TUTORIAL</title>
+    <style>
+        body{
+            background: #FFF8EF;
+        }
+        .header{
+           background-color: #1D1D1D;
+           position:fixed;
+           width:100%;
+           top: 0%;
+           left:0;
+           z-index: 99;
+        }
+        .heading{
+            font-family: 'Arial';
+            font-style: normal;
+            font-weight: 700;
+            font-size: 38px;
+            text-decoration: underline;
+            text-align: center;
+            color: #FF0000;
+        }
+        .first-sec{
+            margin-top: 92px;
+        }
+        .second-sec{
+            margin-top: 10px;
+        }
+        .new{
+            background: #FFFFFF;
+            box-shadow: 0px 4px 9px rgba(67, 67, 67, 0.2);
+            margin-top: 50px;
+            padding: 0px 35px;
+            margin-bottom: 51px;
+        }
+        .newww{
+            background: #FFFFFF;
+            box-shadow: 0px 4px 9px rgba(67, 67, 67, 0.2);
+            margin-top: 50px;
+            padding: 30px 35px;
+            margin-bottom: 50px;
+            margin-right: 20px;
+        }
+        .number{            
+            font-family: 'Arial';
+            font-style: normal;
+            font-weight: 700;
+            font-size: 30px;
+            line-height: 34px;
+            color: #1D1D1D; 
+            padding: 37px;
+        }
+        .inside-heading{
+            font-family: 'Arial';
+            font-style: normal;
+            font-weight: 700;
+            font-size: 42px;
+            line-height: 48px;
+            text-align: center;
+            color: #130085;
+           
+        }
+        .inside-para{
+            font-family: 'Arial';
+            font-style: normal;
+            font-weight: 400;
+            font-size: 20px;
+            line-height: 30px;
+            color: #414141;
+        }
+        .line{
+            position: absolute;
+            width: 1492px;
+            top: 31%;
+            height: 0px;
+            left: 43px;
+            border: 1px dashed #D1D1D1;
+            margin-top: 50px;
+        }
+        .line-1{
+            position: absolute;
+            width: 1492px;
+            height: 0px;
+            left: 43px;
+            border: 1px dashed #D1D1D1;
+            margin-top: 12px;
+        }
+        .heading1{ 
+            font-family: 'Arial';
+            font-style: normal;
+            font-weight: 400;
+            font-size: 48px;
+            line-height: 55px;
+            color: #FFFFFF;
+            margin-top: 63px;
+            background: #FF0000;
+            box-shadow: 0px 4px 9px rgba(67, 67, 67, 0.2);
+            width: 744px;
+            padding: 10px 30px;
+            
+        }
+        .heading-2{
+            font-family: 'Arial';
+            font-style: normal;
+            font-weight: 400;
+            font-size: 36px;
+            line-height: 41px;
+            color: #FFFFFF;
+            margin-top: 23px;   
+            padding: 10px 35px;
+            background: rgba(255, 26, 26, 0.8);
+            box-shadow: 0px 4px 9px rgba(67, 67, 67, 0.2);
+        }
+        .heading-3{
+            font-family: 'Arial';
+            font-style: normal;
+            font-weight: 400;
+            font-size: 28px;
+            line-height: 32px;
+            color: #FFFFFF;
+            margin-top: 23px;  
+            padding: 10px 40px;
+            background: #FF5F5F;
+            box-shadow: 0px 4px 9px rgba(67, 67, 67, 0.2);
+        }
+        .heading-4{
+            font-family: 'Arial';
+            font-style: normal;
+            font-weight: 400;
+            font-size: 24px;
+            line-height: 28px;
+            color: #FFFFFF;
+            margin-top: 23px ;
+            padding: 10px 45px;
+            background: #FF7272;
+            box-shadow: 0px 4px 9px rgba(67, 67, 67, 0.2);
+        }
+        .heading-5{            
+        font-family: 'Arial';
+        font-style: normal;
+        font-weight: 400;
+        font-size: 20px;
+        line-height: 23px;
+        color: #FFFFFF;
+        margin-top: 23px ;
+        padding: 10px 50px;
+        background: #FF8989;
+        box-shadow: 0px 4px 9px rgba(67, 67, 67, 0.2);
+        }
+        .heading-6{
+            font-family: 'Arial';
+            font-style: normal;
+            font-weight: 400;
+            font-size: 16px;
+            line-height: 18px;
+            color: #FFFFFF;
+            margin-top: 23px ;
+            padding: 10px 55px;
+            background: #FFA5A5;
+            box-shadow: 0px 4px 9px rgba(67, 67, 67, 0.2);
+        }
+        .link{
+            font-family: 'Arial';
+            font-style: normal;
+            font-weight: 400;
+            font-size: 20px;
+            line-height: 30px;
+            text-align: center;
+            text-decoration: underline;
+            color: #FF0000;
+            margin-top: 70px;
+        }
+        .para{
+            font-family: 'Arial';
+            font-style: normal;
+            font-weight: 400;
+            font-size: 20px;
+            line-height: 30px;
+            margin-top: 20px;
+            color: #130085;
+        }
+        .paraa{
+            font-family: 'Arial';
+            font-style: normal;
+            font-weight: 400;
+            font-size: 20px;
+            line-height: 30px;
+            margin-top: 20px;
+            color: #414141;
+        }
+        .para-1{
+            font-family: 'Arial';
+            font-style: normal;
+            font-weight: 400;
+            font-size: 20px;
+            line-height: 30px;
+            color: #FF0000;
+        }
+        .imgg{
+            width: 440px;
+            height: 228px;
+            margin-top: 35px;
+            padding: 30px;
+            margin-left: -35px;
+        }
+        .heading-6-6{
+            font-family: 'Arial';
+            font-style: normal;
+            font-weight: 700;
+            font-size: 20px;
+            line-height: 40px;
+            color: #1D1D1D;
+        }
+        .btn-1{
+            background: #FB6050;
+            border: 0px;
+            padding: 10px 25px;
+            border-radius: 26px;
+            margin-top: 70px;
+            color: #FFFFFF;
+            font-family: 'Arial';
+            font-style: normal;
+            font-weight: 400;
+            font-size: 18px;
+            cursor: pointer;
+        }
+        .btn-2{
+            background: #FFF8EF;
+            border: 1px solid #FB6050;
+            padding: 10px 25px;
+            border-radius: 26px;
+            margin-top: 70px;
+            color: #000000;
+            font-family: 'Arial';
+            font-style: normal;
+            font-weight: 400;
+            font-size: 18px;
+            cursor: pointer;
+        }
+        .new-h{
+            padding: 0px 72px 0px 0px ;
+            background: #F1F1F1;
+            margin-top: 50px;
+            margin-bottom: 20px;
+        }
+        .neww{
+            padding: 0px 71px 0px 0px ;
+            margin-top: 50px;
+            margin-bottom: 20px;
+        }
+        .heading-new{
+            max-width: 612px;
+            background: #FB6050;
+            font-family: 'Arial';
+            font-style: normal;
+            font-weight: 700;
+            font-size: 20px;
+            line-height: 40px;
+            color: #FFFFFF;
+            padding: 1px 0px 3px 19px;
+        }
+        .head-new{
+            max-width: 842px;
+            background: #FBA333;
+            font-family: 'Arial';
+            font-style: normal;
+            font-weight: 400;
+            font-size: 20px;
+            line-height: 30px;
+            color: #FFFFFF;
+            padding: 10px;
+        }
+        .heading-new-1{
+            max-width: 612px;
+            border: 1px solid #FB6050;
+            font-family: 'Arial';
+            font-style: normal;
+            font-weight: 700;
+            font-size: 20px;
+            line-height: 40px;
+            color: #414141;
+            padding: 1px 0px 3px 19px;
+        }
+        .head-new-1{
+            max-width: 842px;
+            border: 1px solid #FBA333;
+            font-family: 'Arial';
+            font-style: normal;
+            font-weight: 400;
+            font-size: 20px;
+            line-height: 30px;
+            color: #414141;
+            padding: 10px;
+        }
+        .button{
+           padding: 16px 82px 15px 82px;
+           border: 0px;
+           background: #FFCF92;
+           border-radius: 30px;
+           font-family: 'Arial';
+           font-style: normal;
+           font-weight: 700;
+           font-size: 24px;
+           line-height: 40px;
+           margin-right: 50px;
+           margin-top: 20px;
+        }
+        .button-3{
+            padding: 10px 111px 8px 80px;
+           border: 0px;
+           background: #FFCF92;
+           border-radius: 30px;
+           font-family: 'Arial';
+           font-style: normal;
+           font-weight: 400;
+           font-size: 24px;
+           line-height: 40px;
+           margin-right: 60px;
+           margin-top: 20px;
+        }
+        .flex{
+            display: flex;;
+        }
+        .d-flex{
+            width: calc(100%/1.5);
+            display: flex;
+            flex-direction: row;
+            align-items: center;
+            justify-content: flex-start;
+            flex-wrap: wrap;
+        }
+        .below{
+            margin-left: 315px;
+            margin-top: -60px;
+        }
+        .heading-bottom{
+            font-family: 'Arial';
+            font-style: normal;
+            font-weight: 400;
+            font-size: 48px;
+            margin-top: 10px;
+            color: #000000;
+        }
+        img{
+            width: 100%;
+            height: auto;
+        }
+    </style>
+</head>
+<body>
+    <header class="header">
+        <h1 class="heading">CSS TUTORIAL</h1>
+    </header>
+
+    <section class="first-sec">
+        <div class="flex">
+            <p class="number">(1)</p>
+            <div class="new">  
+                <h2 class="inside-heading">My First Heading</h2>   
+                <p class="inside-para">My first Paragraph</p>  
+            </div>
+        </div>
+        <hr class="line">
+   </section>
+
+   <section class="second-sec">
+    <div class="flex">
+        <p class="number">(2)</p>
+        <div class="new-1">  
+            <h2 class="heading1">&lth1&gt Heading 1 &lt/h1&gt</h2>   
+            <h2 class="heading-2">&lth2&gt Heading 2 &lt/h2&gt</h2>   
+            <h3 class="heading-3">&lth3&gt Heading 3 &lt/h3&gt</h3>   
+            <h4 class="heading-4">&lth4&gt Heading 4 &lt/h4&gt</h4>   
+            <h5 class="heading-5">&lth5&gt Heading 5 &lt/h5&gt</h5>   
+            <h6 class="heading-6">&lth6&gt Heading 6 &lt/h6&gt</h6>  
+        </div>
+    </div>
+    <hr class="line-1">
+   </section>
+
+   <section class="third-sec">
+    <div class="flex">
+        <p class="number">(3)</p>
+        <a class="link" href="#" title="Onprintshop">View More</a>
+    </div>
+    <hr class="line-1">
+   </section>
+
+   <section class="fourth-sec">
+    <div class="flex">
+        <p class="number">4)</p>
+        <div class="new">  
+            <p class="para">Sed ut perspiciatis unde omnis iste natus error sit voluptatem.<br>
+            Nemo enim ipsam voluptatem.</p>   
+        </div>
+    </div>
+    <hr class="line-1">
+    </section>
+
+    <section class="fifth-sec">
+        <div class="flex">
+            <p class="number">5)</p>
+            <div class="new">  
+                <p class="paraa">Sed ut perspiciatis unde omnis iste natus error sit voluptatem.</p>
+                <p class="para-1">Nemo enim ipsam voluptatem.</p>   
+            </div>
+        </div>
+        <hr class="line-1">
+    </section>
+
+    <section class="six-sec">
+        <div class="flex">
+            <p class="number">(6)</p>
+            <div class="new-1">  
+                <img class="imgg" width= "440" height= "228" src="/css-basic-1/assets/images/img-1.jpg">
+                <img class="imgg" width= "440" height= "228" src="/css-basic-1/assets/images/img-2.jpg">
+            </div>
+        </div>
+        <hr class="line-1">
+    </section>
+
+    <section class="seventh-sec">
+        <div class="flex">
+            <p class="number">(7)</p>
+            <div class="new-1">  
+                <p class="paraa" style="margin-top: 60px;">This is<br>
+                    a paragraph<br>
+                    with line breaks.</p>   
+            </div>
+        </div>
+        <hr class="line-1">
+    </section>
+
+    <section class="eighth-sec">
+        <div class="flex">
+            <p class="number">(8)</p>
+            <div class="new-1">  
+                <button class="btn-1">Lorem ipsum </button>
+                <button class="btn-2">Lorem ipsum </button>
+            </div>
+        </div>
+        <hr class="line-1">
+    </section>
+
+    <section class="nine-sec">
+        <div class="flex">
+            <p class="number">(9)</p>
+            <div class="new-h">   
+                <h2 class="heading-new">Lorem ipsum dolor sit amet</h2> 
+                <h2 class="head-new">Lorem ipsum dolor sit amet, consectetuer adipiscing elit, sed diam nonummy nibh euismod<br> tincidunt ut laoreet dolore magna aliquam erat volutpat.</h2>
+            </div>
+        </div>
+        <hr class="line-1">
+    </section>
+    <section class="nine-sec">
+        <div class="flex">
+            <p class="number">(10)</p>
+            <div class="neww">   
+                <h2 class="heading-new-1">Lorem ipsum dolor sit amet</h2> 
+                <h2 class="head-new-1">Lorem ipsum dolor sit amet, consectetuer adipiscing elit, sed diam nonummy nibh euismod<br> tincidunt ut laoreet dolore magna aliquam erat volutpat.</h2>
+            </div>
+        </div>
+        <hr class="line-1">
+    </section>
+
+    <section class="eleven">
+        <div class="flex">
+            <p class="number">(11)</p>
+            <div class="neww">   
+                <h2 class="head-new-1" style="border: 0px; color:#3092F9">Lorem ipsum dolor sit amet, consectetuer adipiscing elit, sed diam nonummy nibh euismod<br> tincidunt ut laoreet dolore magna aliquam erat volutpat.</h2>
+                <h2 class="head-new-1" style="border: 0px; color:#FF0000CC">Lorem ipsum dolor sit amet, consectetuer adipiscing elit, sed diam nonummy nibh euismod<br> tincidunt ut laoreet dolore magna aliquam erat volutpat.</h2>
+            </div>
+        </div>
+        <hr class="line-1">
+    </section>
+
+    <section class="tweleve">
+        <div class="flex">
+            <p class="number">(12)</p>
+            <div class="neww">
+                <div class="d-flex">
+                    <div class="button" style="padding: 16px 62px 15px 62px;">Sed ut perspiciatis unde omnis</div> 
+                    <div class="button" style="font-weight: 400;font-style:italic;">iste natus error sit voluptatem</div>
+                    <div class="button" style="padding: 10px 112px 8px 82px;font-weight: 400;">qui <sub>dolorem</sub> ipsum quia <sup>dolor</sup></div> 
+                    <div class="button" style="padding: 10px 112px 8px 99px;font-weight: 400;"><small>iste natus error sit voluptatem.</small></div>
+                    <div class="button" style="font-weight: 400;">iste natus error sit <mark style="background: red;">voluptatem</mark></div>
+                    <div class="button" style="font-weight: 400;">iste natus <del>error sit</del> voluptatem</div>
+                    <div class="button" style="font-weight: 400;">iste natus <del>error sit</del> <u>voluptatem</u></div>
+                    <div class="button" style="font-weight: 400;">iste natus <sub>error sit</sub> voluptatem</div>
+                </div>
+            </div>
+        </div>
+        <hr class="line-1">
+    </section>
+
+    <section class="thirteen">
+        <div class="flex">
+            <p class="number">(13)</p>
+            <div class="neww">
+                <p class="paraa">This is an inline span <span style="border: 1px solid #130085;color:#FF0000;padding:5px">Hello World</span> element inside a paragraph.</p>
+                <p class="paraa">The SPAN element is an inline element, and will not start on a new line and only takes up as much width as necessary.</p>
+            </div>
+        </div>
+        <hr class="line-1">
+    </section>
+
+    <section class="fourteen">
+        <div class="flex">
+            <p class="number">(14)</p>
+           
+                <div class="newww">
+                    <ul>
+                        <li class="heading-6-6" style="font-weight: 400;font-size: 24px;line-height: 28px;">Red</li>
+                        <li class="heading-6-6" style="font-weight: 400;font-size: 24px;line-height: 28px;">Yellow</li>
+                        <li class="heading-6-6" style="font-weight: 400;font-size: 24px;line-height: 28px;">Green</li>
+                    </ul>
+                </div>
+                <div class="newww">
+                    <ol>
+                        <li class="heading-6-6" style="font-weight: 400;font-size: 24px;line-height: 28px;">Orange</li>
+                        <li class="heading-6-6" style="font-weight: 400;font-size: 24px;line-height: 28px;">Pink</li>
+                        <li class="heading-6-6" style="font-weight: 400;font-size: 24px;line-height: 28px;">Purple</li>
+                    </ol>
+                </div>
+                <div class="newww">
+                    <ol type="A">
+                        <li class="heading-6-6" style="font-weight: 400;font-size: 24px;line-height: 28px;">Red</li>
+                        <li class="heading-6-6" style="font-weight: 400;font-size: 24px;line-height: 28px;">Yellow</li>
+                        <li class="heading-6-6" style="font-weight: 400;font-size: 24px;line-height: 28px;">Green</li>
+                    </ol>
+                </div>
+                <div class="newww">
+                    <ol type="I">
+                        <li class="heading-6-6" style="font-weight: 400;font-size: 24px;line-height: 28px;">Orange</li>
+                        <li class="heading-6-6" style="font-weight: 400;font-size: 24px;line-height: 28px;">Pink</li>
+                        <li class="heading-6-6" style="font-weight: 400;font-size: 24px;line-height: 28px;">Purple</li>
+                    </ol>
+                </div> 
+        </div>
+        <div class="below">
+            <div class="flex">
+                <div class="newww">
+                    <ul style="list-style: square;">
+                        <li class="heading-6-6" style="font-weight: 400;font-size: 24px;line-height: 28px;">Orange</li>
+                        <li class="heading-6-6" style="font-weight: 400;font-size: 24px;line-height: 28px;">Pink</li>
+                        <li class="heading-6-6" style="font-weight: 400;font-size: 24px;line-height: 28px;">Purple</li>
+                    </ul>
+                </div> 
+                <div class="newww">
+                    <ul style="list-style: circle;">
+                        <li class="heading-6-6" style="font-weight: 400;font-size: 24px;line-height: 28px;">Orange</li>
+                        <li class="heading-6-6" style="font-weight: 400;font-size: 24px;line-height: 28px;">Pink</li>
+                        <li class="heading-6-6" style="font-weight: 400;font-size: 24px;line-height: 28px;">Purple</li>
+                    </ul>
+                </div> 
+            </div>
+        </div>
+        
+        <hr class="line-1">
+    </section>
+
+    <section class="fifteen">
+        <div class="flex">
+            <p class="number">(15)</p>
+            <div class="neww">
+                <ul class="heading-6-6" style="font-weight: 400;font-size: 24px;line-height: 28px;list-style: none;">
+                    Lorem ipsum
+                    <li class="heading-6-6" style="font-weight: 400;font-size: 24px;line-height: 28px;color: red;">
+                      - Sed ut perspiciatis unde omnis
+                    </li>
+                </ul>
+                <ul class="heading-6-6" style="font-weight: 400;font-size: 24px;line-height: 28px;list-style: none;">
+                    Lorem ipsum
+                    <li class="heading-6-6" style="font-weight: 400;font-size: 24px;line-height: 28px;color: red;">
+                      - Sed ut perspiciatis unde omnis
+                    </li>
+                </ul>
+            </div>
+        </div>  
+        <hr class="line-1">
+    </section>
+
+    <section class="sixteen">
+        <div class="flex">
+            <p class="number">(16)</p>
+            <div class="neww" style="border: 1px solid #3092F9;border-radius: 30px;padding:10px;">
+                <h6 class="heading-6-6" style="font-weight: 400;font-size: 20px;line-height: 23px;color: #FF0000;">Lorem Ipsum</h6>
+                <h6 class="heading-6-6" style="font-weight: 400;font-size: 20px;line-height: 23px;color: #414141;">Lorem ipsum dolor sit amet, consectetuer adipiscing elit, sed diam nonummy nibh euismod tincidunt<br>
+                    laoreet dolore magna aliquam erat volutpat.
+                </h6>
+            </div>
+            
+        </div>
+        <div class="flex"style="padding-bottom:20px;margin-left:40px;">
+            <p class="number"></p>
+            <div class="neww" style="border: 1px solid #3092F9;border-radius: 30px;padding:20px;">
+                <h6 class="heading-6-6" style="font-weight: 400;font-size: 20px;line-height: 23px;color: #FF0000;">Lorem Ipsum</h6>
+                <h6 class="heading-6-6" style="font-weight: 400;font-size: 20px;line-height: 23px;color: #414141;">Lorem ipsum dolor sit amet, consectetuer adipiscing elit, sed diam nonummy nibh euismod tincidunt<br>
+                    laoreet dolore magna aliquam erat volutpat.
+                </h6>
+            </div>
+        </div>
+        <hr class="line-1">
+    </section>
+   
+    
+    <section>
+        <div class="flex">
+            <p class="number">(17)</p>
+            <div class="new" style="width: 948px;height:138px;background: #FFCF92;margin-top: 55px;">
+                <h6 class="heading-6-6" style="font-size: 40px;line-height:40px;font-weight:400;text-align: center;margin-top:35px;">Lorem ipsum</h6>
+           </div>
+           
+        </div>
+        <div class="flex">
+           
+                <div class="neww" style="margin-left: 125px;margin-top:-50px;width: 460px; height: 273px;">
+                    <img src="/css-basic-1/assets/images/img-3.jpg" width="460" height="273" alt="img">
+                </div>
+                <div class="neww" style="width:488px;height:auto;background:#E7E7E7;margin-left: -70px;margin-top:-50px;">
+                    
+                        <p class="para" style="color: #000000;padding:22px;margin-top: -15px;">
+                            Lorem ipsum dolor sit amet, consectetuer adipiscing elit,<br>sed diam nonummy nibh euismod tincidunt ut<br>
+                            laoreet dolore magna aliquam erat volutpat.
+                        </p>
+                        <p  class="para" style="color: #000000;padding:22px;margin-top: -30px;">
+                            Lorem ipsum dolor sit amet, consectetuer adipiscing elit,<br>
+                            sed diam nonummy nibh euismod tincidunt.
+                        </p>
+                    
+               </div>
+         </div>
+         <div class="flex">
+            <div class="new" style="width: 948px;height:63px;background: #D9D9D9;margin-left: 126px;margin-top:-20px;">
+                <p class="para" style="color: #414141;padding:15px;margin-top: 5px;">Lorem ipsum</p>
+                <p class="para" style="color: #414141;padding:15px;margin-top:-80px;margin-left: 720px;"><a href="#" title="loremipsum" style="text-decoration: none;color:#000000;">www.loremipsum.com</a></p>
+            </div>
+        </div>
+        <hr class="line-1">
+    </section>
+
+    <section>
+        <div class="flex">
+            <p class="number">(18)</p>
+            <div class="new"style="padding:10px;margin-top:50px;margin-bottom:20px">  
+                <h3 class="heading-6-6"style="font-weight:400;">Some Programming Code :</h3>
+                <code class="paraa">
+                    <var>x</var> = 5;
+                    <var>y</var> = 6;
+                    <var>z</var> = x + y;
+                    </code>
+            </div>
+        </div>
+        <hr class="line-1">
+    </section>
+    
+    <section>
+        <div class="flex" >
+            <p class="number">(19)</p>
+            <div class="new"style="padding:10px;margin-top:50px;margin-bottom:20px;">  
+                <h3 class="headingg" style="font-family: 'Arial';
+                font-style: normal;
+                font-weight: 400;
+                font-size: 40px;
+                line-height: 30px;
+                color: #414141;">This is heading 1</h3>
+                <p style="font-family: 'Arial';
+                font-style: normal;
+                font-weight: 400;
+                font-size: 16px;
+                line-height: 18px;
+                color: #3092F9;">Lorem ipsum dolor sit amet</p>
+                <hr class="line-1"style="width: 306px;height: 0px;margin-left:85px;">
+                <h3 class="headingg" style="font-family: 'Arial';
+                font-style: normal;
+                font-weight: 400;
+                font-size: 40px;
+                line-height: 30px;
+                color: #414141;">This is heading 1</h3>
+                <p style="font-family: 'Arial';
+                font-style: normal;
+                font-weight: 400;
+                font-size: 16px;
+                line-height: 18px;
+                color: #3092F9;">Lorem ipsum dolor sit amet</p>
+            </div>  
+        </div>
+        <hr class="line-1">
+    </section>
+
+    <section>
+        <div class="flex">
+            <p class="number">(20)</p>
+            <div class="neww">
+                <p class="para-1"style="font-size:18px;">Lorem ipsum dolor sit amet</p>
+                <p class="para"style="font-size:18px;">Lorem ipsum dolor sit amet</p>
+                <p class="heading-bottom">Lorem ipsum</p>
+            </div>
+        </div>
+       
+    </section>
+</body>
+
+</html>
