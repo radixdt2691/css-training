@@ -88,7 +88,12 @@ nav ol li {
     line-height: 16px;
     color: #9B9B9B;
 }
-
+.icon{
+    position: absolute; 
+    left: 925px;
+    top: 10px;
+    color: #9B9B9B;
+}
 .w-50{
     width: 50%;
 }
@@ -213,4 +218,4 @@ input[type=range],input[type=file]{
     margin-top: 80px;
 }
 
-.icon{justify-content: center; gap: 10px;}.icn{background-color: #000000; color: #F3F3F3; padding: 10px; border-radius: 50%; margin-bottom: 50px;}
+.icon-1{justify-content: center; gap: 10px;}.icn{background-color: #000000; color: #F3F3F3; padding: 10px; border-radius: 50%; margin-bottom: 50px;}
