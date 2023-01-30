@@ -157,7 +157,7 @@ td{
     margin-top: 88px;
 }
 .background{
-    background-image: url("/css-basic-4/assets/images/img-1.jpg");
+    background-image: url("../assets/images/img-1.jpg");
     background-repeat: no-repeat;
     background-size: cover;
     height: 100vh;
