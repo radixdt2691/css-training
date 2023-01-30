@@ -1,0 +1,87 @@
+@font-face {
+    font-family: "Nunito Sans";
+    src: url("./css-basic-3/font/AnyConv.com__NunitoSans-Regular.woff");
+}
+.container {
+    max-width: 1920px;
+    margin: 0 auto;
+}
+.flex{
+    display: flex;
+    align-items: center;
+}
+.d-flex{
+    display: flex;
+    flex-direction: row;
+    align-items: flex-start;
+    justify-content: center;
+    flex-wrap: wrap;
+}
+.main-nav{
+    width: 100%;
+    position: fixed;
+    top: 0%;
+    left: 0;
+    background: white;
+}
+.link{
+    font-family: 'Arial';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 20px;
+    line-height: 23px;
+    text-decoration: none;
+    color: #000000;
+    
+}
+.link-1{
+    text-decoration: underline;
+    color: #FF0000;
+}
+.nav{
+    width: 100%;
+}
+.col-1{
+    display: flex;
+    position: relative;
+    justify-content: end;
+    width: 50%;
+}
+.col-1-1 {
+    padding: 15px 13px;
+}
+.col-2{
+    width: calc(100%/2);
+}
+nav ol {
+    float: right;
+    display: flex;
+    align-items: stretch;
+}
+nav ol li {
+    display: inline-block;
+    margin: 0 35px;
+    display: flex;
+    align-items: stretch;
+}
+
+::placeholder{
+    position: absolute; 
+    left: 19px;
+    top: 7px;
+    font-family: 'Nunito Sans';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 16px;
+    color: #9B9B9B;
+}
+.icon{
+    position: absolute; 
+    left: 925px;
+    top: 10px;
+    color: #9B9B9B;
+}
+.w-50{
+    width: 50%;
+}
