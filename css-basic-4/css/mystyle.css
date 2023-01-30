@@ -3,19 +3,15 @@
     src: url("../font/AnyConv.com__NunitoSans-Regular.woff");    
 }
 body{
-    background-color: #F8F8F8;
-    margin: 0px;
+    overflow-x: hidden;
 }
 .container {
     max-width: 1920px;
-    margin: 0 auto;
+   
 }
 .flex{
     display: flex;
     align-items: center;
-}
-.flex-1{
-    display: flex;
 }
 .d-flex{
     display: flex;
@@ -66,6 +62,7 @@ body{
 }
 .col-2{
     width: calc(100%/2);
+    padding: 0px 40px;
 }
 nav ol {
     float: right;
@@ -100,15 +97,10 @@ nav ol li {
     width: 50%;
 }
 .header-banner{
-    background: #EAEAEA;
-    margin-top: 88px;
+   
+    margin-top: 96px;
 }
-.content{
-    max-width: 1109px;
-    width: auto;
-    padding: 65px;
-}
-.content h2{
+.heading{
 font-family: 'Arial';
 font-style: normal;
 font-weight: 700;
@@ -116,131 +108,107 @@ font-size: 48px;
 line-height: 40px;
 text-align: center;
 color: #FF0000;
-text-align: left;
-
+text-align: center;
 }
-.content p{
-font-family: 'Arial';
-font-style: normal;
-font-size: 20px;
-line-height: 40px;
-color: #414141;
-}
-.img-head{
-    height: 100%;
-    width: auto;
-    margin-left: 47px;
-}
-.img-banner{
-    width: 480px;
-    height: 280px;
-    object-fit: cover;
-    overflow: hidden;
-}
-.col-3{
-    width: calc(100%/3);
-    padding: 16px 28px;
-}
-.main-heading-2{
+.para{
     font-family: 'Arial';
     font-style: normal;
-    font-weight: 700;
-    font-size: 40px;
-    line-height: 40px;
-    text-align: center;
-    color: #FF0000;
-}
-.inner-list{
-    font-family: 'Arial';
-    font-style: normal;
-    font-weight: 400;
     font-size: 20px;
-    line-height: 23px;
-    color: #FF0000;
-    margin-top: 57px;
-}
-.inner-list-1{
-    font-family: 'Arial';
-    font-style: normal;
-    font-weight: 700;
-    font-size: 18px;
     line-height: 30px;
     color: #414141;
-    padding: 20px;
-   
+    font-weight: 700;
+    text-align: center;
 }
-.card-in-1{
-    background: #FFFFFF;
-    border: 1px solid #FF0000;
-    box-shadow: 0px 4px 20px rgba(175, 175, 175, 0.1);
-    border-radius: 20px;
-    width: 570px;
-    height: 313px;
+table{
+    width: 870px;
+    height: auto;
+    border-collapse: collapse;
+    margin-top: 32px;
 }
-.card-in-2{
-    background: #FFFFFF;
-    border: 1px solid #3092F9;
-    box-shadow: 0px 4px 20px rgba(175, 175, 175, 0.1);
-    border-radius: 20px;
-    width: 570px;
-    height: 313px;
-}
-.card-in-3{
-    background: #FFFFFF;
-    border: 1px solid #FBA333;
-    box-shadow: 0px 4px 20px rgba(175, 175, 175, 0.1);
-    border-radius: 20px;
-    width: 570px;
-    height: 313px;
-}
-.cover-l{
-    height: 100%;
-}
-
-.cover-r{
-  background: #EAEAEA;
-}
-
-#text-img{
-    height: 100%;
-    width: 100%;
-    object-fit: cover;
-}
-.card-text{
-    max-height: 100%;
-    padding: 15px;
-    width: 735px;
-    height: 354px;
-    background: #EAEAEA;
-
-}
-.card-text-1{
-    max-height: 100%;
-    background: #EAEAEA;
-
-}
-.inside-heading-card{
+th{
+    background: #3092F9;
     font-family: 'Arial';
     font-style: normal;
     font-weight: 700;
-    font-size: 32px;
-    line-height: 30px;
-    color: #3092F9;
-    padding: 25px;
+    font-size: 22px;
+    line-height: 25px;
+    color: #FFFFFF;
+    padding: 8px;
 }
-.inside-para-card{
+tr{
     font-family: 'Arial';
     font-style: normal;
-    font-weight: 400;
-    font-size: 18px;
-    line-height: 30px;
-    color: #000000;
-    padding: 18px;
+    font-weight: 700;
+    font-size: 22px;
+    line-height: 25px;
+
+    color: #414141;
+    text-align: center;
+    box-shadow: 0px 4px 15px rgba(44, 44, 44, 0.1);
 }
-.img-text{
-    max-width: 1320px;
-    margin: 0 auto;
-    
+td{
+    padding: 10px;
+}
+.middle-sec{
+    margin-top: 70px;
+}
+.background-video{
+    margin-top: 88px;
+}
+.background{
+    background-image: url("/css-basic-4/assets/images/img-1.jpg");
+    background-repeat: no-repeat;
+    background-size: cover;
+    height: 100vh;
+    position: relative;
+}
+video{
+    transform: translate(-50%, -50%);
+    position: absolute;
+    top: 50%;
+    left: 50%;
+
+}
+.form-grp-1,.form-grp-2{
+    display:inline-block;
+    text-align: left;
+    margin-left: 10px;
+    padding: 10px;
+}
+.inside-form{
+   text-align:left;
+   margin-left: 15px;
+   padding: 10px;
+}
+.label-form{
+    font-family: 'Arial';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 18px;
+    line-height: 21px;
+    color: #414141;
+    margin-left: 15px;
+}
+.text{
+    width: 315px;
+    padding: 12px;
+    border: 1px solid #CFCFCF;
+    border-radius: 1px;
+    margin: 10px;
+}      
+input[type=submit],input[type=reset]{
+    cursor: pointer;
+    border: 1px solid #CFCFCF;
+}
+input[type=color]
+{     
+    height: 26px;
+    width: 71px;
+    margin: 10px; 
+    margin-left: 101px; 
+}
+input[type=range],input[type=file]{
+    margin-left: 90px;
 }
 .footer{
     background: #EAEAEA;
