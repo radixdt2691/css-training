@@ -624,9 +624,7 @@ input[type=range],input[type=file]{
         width: 153%;
     
     }
-    .main-nav {
-        width: 55vh;
-    }
+    
 }
 @media screen and (max-width:320px) {
     .footer {
