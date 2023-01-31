@@ -162,6 +162,7 @@ td{
     background-size: cover;
     height: 100vh;
     position: relative;
+    opacity: 0.5;
 }
 video{
     transform: translate(-50%, -50%);
