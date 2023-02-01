@@ -422,7 +422,10 @@ input[type=range],input[type=file]{
     height: 180px;
     margin-top: 80px;
 }
-
+.parent{
+    max-width: 100%;
+    height: auto;
+}
 .icon-1{justify-content: center; gap: 10px;}.icn{background-color: #000000; color: #F3F3F3; padding: 10px; border-radius: 50%; margin-bottom: 50px;}
 
 /* Media Query for 1400px */
@@ -598,20 +601,7 @@ input[type=range],input[type=file]{
 @media screen and (max-width: 767px) {
     .container {
         max-width: 100%;
-   }
-   .inside-form {
-    margin-left: 37px;
-    }
-    .parent{
-        width: 92%;
-    }
-    .text-email{
-        width: 315px;
-        margin-left: 131px;
-    }
-    .email-label{
-        margin-left: 133px;
-    }
+   }    
     .form-grp-1-1{
         margin-right: 0px;
         margin-left: 86px;
@@ -647,20 +637,17 @@ input[type=range],input[type=file]{
         width: 100%;
     }
     .parent {
-        width: 67%;
-    }
-    .email-label {
-        margin-left: 38px;
+        max-width: 67%;
     }
     .text-email{
-        margin-left: 31px;
+        width: 95%;
     }
     .frame{
         width: 90%;
     
     }
-    .inside-form {
-        margin-left: -21px;
+    .inside-form{
+        margin-left: 0px;
     }
     .form-grp-1{
         margin-left: 0px;
@@ -696,7 +683,7 @@ input[type=range],input[type=file]{
         width: 101%;
     }
     .parent {
-        width: 90%;
+        max-width: 95%;
     }
     .frm-main{
         border-radius: 0%;
