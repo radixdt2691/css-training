@@ -270,7 +270,7 @@ color: #414141;
     margin-top: 96px;
 }
 .text-email{
-    width: 710px;
+    width: 675px;
     padding: 12px;
     border: 1px solid #CFCFCF;
     border-radius: 1px;
@@ -545,7 +545,7 @@ input[type=range],input[type=file]{
     width: 830px;
    }
    .inside-form{
-    margin-left: 40px;
+    margin-left: 17px;
    }
 }
 @media screen and (max-width: 991px) {
@@ -608,6 +608,9 @@ input[type=range],input[type=file]{
     .container {
         max-width: 100%;
    }
+   .inside-form {
+    margin-left: 37px;
+    }
    .footer {
     width: 752px;
     }
