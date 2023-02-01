@@ -25,7 +25,9 @@
                                 font-style: normal;
                                 font-weight: 400;
                                 font-size: 20px;
-                                line-height: 23px;" title="Home">Home</a></li>
+                                line-height: 23px;
+                                color: #FF0000;
+                                text-decoration: underline;" title="Home">Home</a></li>
                             <li><a href="#" class="link" title="Html">Html</a></li>
                             <li><a href="#" class="link" title="Css">Css</a></li>
                             <li><a href="#" class="link" title="Layout">Layout</a></li>
@@ -39,7 +41,9 @@
                         padding: 10px 45px 10px 20px;">
                         <i class="fa fa-search icon" aria-hidden="true"></i>
                     </div>
-                    <div class="fa-btn"><label for="check1" class="checkbtn1"><i class="fa fa-bars"></i></label></div>
+                    <div class="fa-btn">
+                        <label for="check1" class="checkbtn1"><i class="fa fa-bars" id="btn"></i></label>
+                    </div>
                 </div>
                
             </nav>
@@ -157,7 +161,7 @@
                 
             </div>
             <div class="flex">
-                <div class="col-2">
+                <div class="col-2" style="overflow-x: auto;">
                     <table>
                         <tr>
                             <th>Rank</th>
@@ -185,7 +189,7 @@
                         </tr>
                     </table>
                 </div>
-                <div class="col-2">
+                <div class="col-2" style="overflow-x: auto;">
                     <table>
                         <tr>
                             <th>Rank</th>
@@ -256,7 +260,7 @@
             </div>
             <div class="background">
                 <video controls="" width="1046" height="424.64" class="video">
-                    <source src="./assets/video/mov_bbb.mp4" type="video/mp4">
+                    <source src="./assets/images/video/mov_bbb.mp4" type="video/mp4">
                 </audio>
             </div>
         </div>
@@ -282,7 +286,7 @@
                     <h2 class="heading">Lorem ipsum</h2>  
                     <center>    
                         <div class="parent">
-                            <form class="frm-main" style="margin-top: 90px;background: #F3F3F3;padding-top: 40px;padding-bottom: 30px;border-radius: 5%;">
+                            <form class="frm-main">
                                 <div class="form-grp-1">
                                      <label class="label-form">First Name: </label><br>
                                      <input type="text" class="text" placeholder="First Name" required>
@@ -328,20 +332,20 @@
                                          <option selected>Female</option>
                                      </select>
                                  </div><br>
-                                 <div class="form-grp-1" style="margin-right:340px;">
+                                 <div class="form-grp-1-1">
                                      <label class="label-form">Folder: </label>
                                      <input type="file" class="file">
                                 </div><br>
-                                <div class="form-grp-1" style="margin-right:515px;">
+                                <div class="form-grp-1-1-1">
                                  <label class="label-form">Color: </label>
                                  <input type="color">
                                  </div><br>
-                                 <div class="form-grp-1" style="margin-right:464px;">
+                                 <div class="form-grp-1-1-1-1">
                                      <label class="label-form">Range: </label>
                                      <input type="range">
                                      </div><br>
                                  <div class="form-grp-1">
-                                     <input type="submit" value="Submit" style="font-family:'Arial';font-size:18px;width: 129px;height: 52px;background:#000000;color:white;font-weight:700;margin-right: 10px;margin-top: 20px;"> <input type="Reset" value="Reset" style="font-family:'Arial';font-size:18px;width: 129px;height: 52px;background:white;color:#000000;font-weight:700">
+                                     <input type="submit" class="btn-sub" value="Submit"> <input type="Reset" class="btn-reset" value="Reset">
                                  </div>
                             </form>
                         </div>

@@ -53,6 +53,9 @@ body{
     background: white;
     z-index: 99;
 }
+.alink{
+    color: #FF0000;
+}
 .link{
     font-family: 'Arial';
     font-style: normal;
@@ -349,6 +352,29 @@ video{
     margin-left: 10px;
     padding: 10px;
 }
+.form-grp-1-1{
+    display: inline-block;
+    text-align: left;
+    margin-right: 270px;
+    padding: 10px;
+}
+
+.form-grp-1-1-1{
+    display: inline-block;
+    text-align: left;
+    margin-right: 441px;
+    padding: 10px;
+}
+
+.form-grp-1-1-1-1{
+    display: inline-block;
+    text-align: left;
+    margin-right: 390px;
+    padding: 10px;
+}
+.frm-main{
+    margin-top: 90px;background: #F3F3F3;padding-top: 40px;padding-bottom: 30px;border-radius: 5%;
+}
 .inside-form{
    text-align:left;
    margin-left: 15px;
@@ -369,7 +395,13 @@ video{
     border: 1px solid #CFCFCF;
     border-radius: 1px;
     margin: 10px;
+}
+.btn-sub{
+    font-family:'Arial';font-size:18px;width: 129px;height: 52px;background:#000000;color:white;font-weight:700;margin-right: 10px;margin-top: 20px;
 }      
+.btn-reset{
+    font-family:'Arial';font-size:18px;width: 129px;height: 52px;background:white;color:#000000;font-weight:700;
+}
 input[type=submit],input[type=reset]{
     cursor: pointer;
     border: 1px solid #CFCFCF;
@@ -415,7 +447,7 @@ input[type=range],input[type=file]{
     padding: 10px 10px;
    }
    .footer{
-    width: 1385px;
+    width: 1305px;
    }
    table{
     width: 560px;
@@ -433,6 +465,7 @@ input[type=range],input[type=file]{
     .fa-btn {
         z-index: 99;
    }
+   
     .navbar, .topnav, .nav-link {
         font-size: 50px;
    }
@@ -588,16 +621,30 @@ input[type=range],input[type=file]{
     .email-label{
         margin-left: 133px;
     }
+    .form-grp-1-1{
+        margin-right: 0px;
+        margin-left: 86px;
+    }
+    .form-grp-1-1-1{
+        margin-right: 84px;
+    }
+    .form-grp-1-1-1-1{
+        margin-right: 30px;
+    }
 }
 @media screen and (max-width: 575px) {
     .footer {
         width: 558px;
     }
+    .background{
+        height: 37vh;
+    }
     video {
-        width: 530px;
+        width: 350px;
+        height: 215px;
     }
     .main-nav {
-        width: 65vh;
+        width: 100%;
     }
     .flex{
         display: flex;
@@ -612,7 +659,7 @@ input[type=range],input[type=file]{
         width: 100%;
     }
     .parent {
-        width: 65%;
+        width: 67%;
     }
     .email-label {
         margin-left: 38px;
@@ -621,8 +668,20 @@ input[type=range],input[type=file]{
         margin-left: 31px;
     }
     .frame{
-        width: 153%;
+        width: 90%;
     
+    }
+    .inside-form {
+        margin-left: -21px;
+    }
+    .form-grp-1{
+        margin-left: 0px;
+    }
+    .form-grp-1-1{
+        margin-left: 0px;
+    }
+    .frm-main{
+        border-radius: 0%;
     }
     
 }
@@ -630,30 +689,54 @@ input[type=range],input[type=file]{
     .footer {
         width: 303px;
     }
+    .w-50 {
+        width: 100%;
+    }
+    .main-heading-2{
+        font-size: 26px;
+    }
+    .heading{
+        font-size: 26px;
+    }
+    .para{
+        font-size: 15px;
+    }
+    .content h2 {
+        font-size: 23px;
+    }
+    .inside-heading-card{
+        font-size: 25px;
+    }
     .frame {
         width: 101%;
     }
     .parent {
-        width: 41%;
+        width: 90%;
+    }
+    .frm-main{
+        border-radius: 0%;
     }
     .label-form{
         font-size: 12px;
     }
     .text{
-        width: 215px;
+        width: 190px;
     }
     .email-label {
         margin-left: 0px;
     }
     .text-email{
-        width: 215px;
+        width: 190px;
         margin-left: 0px;
     }
+    .inside-form {
+        margin-left: 31px;
+    }
     .background{
-        height: 50vh;
+        height: 25vh;
     }
     video {
-        width: 230px;
+        width: 250px;
         height: 163px;
     }
     table{
@@ -663,7 +746,7 @@ input[type=range],input[type=file]{
         font-size: 16px;
     }
     .main-nav {
-        width: 21vh;
+        width: 100%;
     }
     .logo{
         width: 102px;
@@ -678,6 +761,26 @@ input[type=range],input[type=file]{
         line-height: 18px;
     }
     .inside-para-card{
-        font-size: 12px;
+        font-size: 11px;
     }
+    .btn-sub{
+        width: 90px;
+        height: 42px;
+        font-size: 13px;
+    }
+    .btn-reset{
+        width: 90px;
+        height: 42px;
+        font-size: 13px;
+    }
+    input[type=file] {
+        margin-left: 10px;
+    }
+    input[type=range] {
+        margin-left: 10px;
+    }
+    input[type=color] {
+        margin-left: 10px;
+    }
+    
 }
