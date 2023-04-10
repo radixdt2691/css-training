@@ -1,0 +1,329 @@
+/* http://meyerweb.com/eric/tools/css/reset/ 
+   v2.0 | 20110126
+   License: none (public domain)
+*/
+
+html, body, div, span, applet, object, iframe,
+h1, h2, h3, h4, h5, h6, p, blockquote, pre,
+a, abbr, acronym, address, big, cite, code,
+del, dfn, em, img, ins, kbd, q, s, samp,
+small, strike, tt, var,
+u, center,
+dl, dt, dd, ol, ul, li,
+fieldset, form, label, legend,
+table, caption, tbody, tfoot, thead, tr, th, td,
+article, aside, canvas, details, embed,
+figure, figcaption, footer, header, hgroup,
+menu, nav, output, ruby, section, summary,
+time, mark, audio, video {
+    margin: 0;
+    padding: 0;
+    border: 0;
+    font-size: 100%;
+    font: inherit;
+    vertical-align: baseline;
+}
+
+/* HTML5 display-role reset for older browsers */
+article, aside, details, figcaption, figure,
+footer, header, hgroup, menu, nav, section {
+    display: block;
+}
+
+body {
+    line-height: 1;
+}
+
+
+blockquote, q {
+    quotes: none;
+}
+
+blockquote:before, blockquote:after,
+q:before, q:after {
+    content: '';
+    content: none;
+}
+
+a {
+    color: #000000;
+}
+
+table {
+    border-collapse: collapse;
+    border-spacing: 0;
+}
+* {
+    box-sizing: border-box;
+}
+
+body {
+    font-family: 'Arial',sans-serif;
+    color: #414141;
+    font-size: 20px;
+    background: #FFF8EF;
+}
+
+.container {
+    max-width: 1180px;
+    margin: 0 auto;
+    width: 100%;
+    padding: 0 15px;
+}
+
+img{
+    max-width: 100%;
+}
+
+.w-100{
+    width: 100%;
+}
+.w-50{
+    width: 50%;
+}
+/* Font Size */
+
+.font-42{
+    font-size: 42px;
+}
+.font-40{
+    font-size: 40px;
+}
+.font-38{
+    font-size: 38px;
+}
+.font-32{
+    font-size: 32px;
+}
+.font-30{
+    font-size: 30px;
+}
+.font-28{
+    font-size: 28px;
+}
+.font-24{
+    font-size: 24px;
+}
+.font-18{
+    font-size: 18px;
+}
+/* Font Weight */
+.font-weight-700{
+    font-weight: 700;
+}
+/* line-height */
+.line-height-30{
+    line-height: 30px;
+}
+.txt-center{
+    text-align: center;
+}
+/* colors */
+.txt-red{
+    color: #FF0000;
+}
+.txt-blue{
+    color: #130085;
+}
+.txt-sky-blue{
+    color: #3092F9;
+}
+.txt-white{
+    color: #FFFFFF;
+}
+.txt-black{
+    color: #1D1D1D;
+}
+.bg-primary{
+    background: #FF0000;
+}
+.bg-header{
+    background: #1D1D1D;
+}
+.bg-white{
+    background: #FFFFFF;
+}
+.bg-layout{
+    background: #FFCF92;
+}
+.bg-layout-content{
+    background: #E7E7E7;
+}
+.bg-transperant{
+    background: transparent;
+}
+.bg-section-nine{
+    background: #F1F1F1;
+}
+
+/* Underline */
+.txt-underline{
+    text-decoration: underline;
+}
+/* Width */
+.w-75{
+    width: 75%;
+}
+/* Display */
+.flex {
+    display: flex;
+}
+
+.justify-center {
+    justify-content: center;
+}
+
+.justify-start {
+    justify-content: flex-start;
+}
+
+.justify-end {
+    justify-content: end;
+}
+
+.justify-evenly {
+    justify-content: space-evenly;
+}
+
+.justify-space-between {
+    justify-content: space-between;
+}
+
+.align-center {
+    align-items: center;
+}
+
+.align-start {
+    align-items: flex-start;
+}
+
+.flex-dir-col {
+    flex-direction: column;
+}
+
+/* Gap */
+.gap-60{
+    gap: 60px;
+}
+.gap-30{
+    gap: 30px;
+}
+.gap-20{
+    gap: 20px;
+}
+.gap-10{
+    gap: 10px;
+}
+/* Padding */
+.pb-12{
+    padding-bottom: 12px;
+}
+.py-15{
+    padding-top: 15px;
+    padding-bottom: 15px;
+}
+.py-27{
+    padding-top: 27px;
+    padding-bottom: 27px;
+}
+.padding-sec-12{
+    padding: 16px 62px;
+}
+.pl-28{
+    padding-left: 28px;
+}
+.padding-header-wrapper{
+    padding: 56px 50px;
+    box-shadow: 0px 4px 9px rgba(67, 67, 67, 0.2);
+}
+.pt-130{
+    padding-top: 130px;
+}
+/* Margin */
+.mt-26{
+    margin-top: 26px;
+}
+.mb-26{
+    margin-bottom: 26px;
+}
+.border-bottom-gray {
+    padding-top: 50px;
+    padding-bottom: 50px;
+    margin-left: 48px;
+    border-bottom: 1px dashed #D1D1D1
+}
+
+/* Main Css */
+header{
+    position: fixed;
+    z-index: 99;
+}
+
+.header-wrapper .main-wrapper .wrapper{
+    width: 69%;
+    height: auto;
+    box-shadow: 0px 4px 9px rgba(67, 67, 67, 0.2);
+}
+
+.opacity-80{
+    opacity: 0.8;
+}
+.opacity-70{
+    opacity: 0.7;
+}
+.opacity-60{
+    opacity: 0.6;
+}
+.opacity-50{
+    opacity: 0.5;
+}
+.opacity-40{
+    opacity: 0.4;
+}
+
+.txt-wrapper .content-wrapper{
+    max-width: 53%;
+    height: auto;
+    padding: 35px 15px;
+}
+
+.border-radius-26{
+    border-radius: 26px;
+}
+
+.bg-btn-1{
+    background: #FB6050;
+}
+
+.button-lorem{
+    padding: 13px 26px;
+    border: none;
+    cursor: pointer;
+}
+.border-btn-2{
+    border: 1px solid #FB6050;
+}
+
+.section-nine .div-wrapper{
+    width: 83%;
+    height: auto;
+}
+
+.section-nine .div-wrapper .txt-bg{
+    width: 67%;
+    padding: 13px;
+}
+.section-nine .div-wrapper .txt-bg-2{
+    width: 92%;
+    padding: 10px;
+    background: #FBA333;
+}
+.section-nine .div-wrapper .txt-bg-sec-ten{
+    width: 92%;
+    padding: 10px;
+    background: transparent;
+    border: 1px solid #FBA333;
+}
+.font-style-italic{
+    font-style: italic;
+}
