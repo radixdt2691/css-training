@@ -1,416 +1,300 @@
 <!DOCTYPE html>
 <html lang="en">
-<head>
-    <meta charset="UTF-8">
-    <meta http-equiv="X-UA-Compatible" content="IE=edge">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>HTML TUTORIAL</title>
-    <style>
-        body{
-            background: #FFF8EF;
-        }
-        .header{
-           background-color: #1D1D1D;
-           position:fixed;
-           width:100%;
-           top: 0%;
-           left:0;
-           z-index: 99;
-        }
-        .heading{
-            font-family: 'Arial';
-            font-style: normal;
-            font-weight: 700;
-            font-size: 38px;
-            text-decoration: underline;
-            text-align: center;
-            color: #FF0000;
-        }
-        .first-sec{
-            margin-top: 92px;
-           
-        }
-        .second-sec{
-            margin-top: 30px;
-        }
-        .new{
-            background: #FFFFFF;
-            box-shadow: 0px 4px 9px rgba(67, 67, 67, 0.2);
-            margin-top: 60px;
-            padding: 0px 10px;
-            margin-bottom: 50px;
-        }
-        .number{            
-            font-family: 'Arial';
-            font-style: normal;
-            font-weight: 700;
-            font-size: 30px;
-            line-height: 34px;
-            color: #1D1D1D; 
-            padding: 37px;
-        }
-        .inside-heading{
-            font-family: 'Arial';
-            font-style: normal;
-            font-weight: 700;
-            font-size: 42px;
-            line-height: 48px;
-            text-align: center;
-            color: #1D1D1D;
-            padding-top: 28px;
-        }
-        .inside-para{
-            font-family: 'Arial';
-            font-style: normal;
-            font-weight: 400;
-            font-size: 20px;
-            line-height: 30px;
-            color: #414141;
-        }
-        .line{
-            position: absolute;
-            width: 1492px;
-            top: 28%;
-            height: 0px;
-            left: 43px;
-            color: #D1D1D1;
-        }
-        .line-1{
-            position: absolute;
-            width: 1492px;
-            height: 0px;
-            left: 43px;
-            color: #D1D1D1;
-        }
-        .heading1{
-            
-        font-family: 'Arial';
-        font-style: normal;
-        font-weight: 400;
-        font-size: 48px;
-        line-height: 55px;
-        padding-top: 24px;
-        color: #1D1D1D;
-        }
-        .heading-2{
-            font-family: 'Arial';
-            font-style: normal;
-            font-weight: 400;
-            font-size: 36px;
-            line-height: 41px;
-            color: #1D1D1D;
-            margin-top: 23px;
-        }
-        .heading-3{
-            font-family: 'Arial';
-            font-style: normal;
-            font-weight: 400;
-            font-size: 28px;
-            line-height: 32px;
-            color: #1D1D1D;
-        }
-        .heading-4{
-            font-family: 'Arial';
-            font-style: normal;
-            font-weight: 400;
-            font-size: 24px;
-            line-height: 28px;
-            color: #1D1D1D;
-        }
-        .heading-5{            
-        font-family: 'Arial';
-        font-style: normal;
-        font-weight: 400;
-        font-size: 20px;
-        line-height: 23px;
-        color: #1D1D1D;
-        }
-        .heading-6{
-            font-family: 'Arial';
-            font-style: normal;
-            font-weight: 400;
-            font-size: 16px;
-            line-height: 18px;
-            color: #1D1D1D;
-        }
-        .link{
-            font-family: 'Arial';
-            font-style: normal;
-            font-weight: 400;
-            font-size: 20px;
-            line-height: 30px;
-            text-align: center;
-            text-decoration-line: u;
-            color: #1D1D1D;
-            margin-top: 70px;
-        }
-        .para{
-            font-family: 'Arial';
-            font-style: normal;
-            font-weight: 400;
-            font-size: 20px;
-            line-height: 30px;
-            margin-top: 60px;
-            color: #414141;
-        }
-        .para-1{
-            font-family: 'Arial';
-            font-style: normal;
-            font-weight: 400;
-            font-size: 20px;
-            line-height: 30px;
-            color: #FF0000;
-        }
-        .imgg{
-            width: 425px;
-            height: 172px;
-            margin-top: 35px;
-        }
-        .heading-6-6{
-            font-family: 'Arial';
-            font-style: normal;
-            font-weight: 700;
-            font-size: 20px;
-            line-height: 40px;
-            color: #1D1D1D;
-        }
-        .button{
-            width: 612px;
-            height: 45px;
-            border-radius: 0px;
-            border: 0px;
-            background: #FB6050;
-            font-family: Arial;
-            font-size: 18px;
-            font-weight: 700;
-            line-height: 40px;
-            letter-spacing: 0em;
-            text-align: left;
-            color: white;
-            margin-top: 20px;
-        }
-        
-        table{
-            width: 976px;
-            height:33px;
-        }
-        th{
-            font-family: 'Arial';
-            font-style: normal;
-            font-weight: 700;
-            font-size: 18px;
-            line-height: 21px;
-            color: #FFFFFF;
-            background: #3092F9;
-            padding: 5px;
-        }
-        td{
-            font-family: 'Arial';
-            font-style: normal;
-            font-weight: 700;
-            font-size: 14px;
-            line-height: 16.1px;
-            color: #414141;
-            padding: 5px;
-        }
-        form.div {
-        margin-bottom: 10px;
-      }
-      input[type=text], input[type=email], input[type=date],input[type=datetime-local],input[type=password],select, textarea {
-        width: 50%;
-        padding: 12px;
-        border: 1px solid #ccc;
-        border-radius: 4px;
-        resize: vertical;
-        margin: 10px;
-    }      
-     input[type=file], input[type=range]
-    {
-        width: 50%;
-        padding: 12px;
-        resize: vertical;
-        margin: 10px;
-    }
-    input[type=color]
-    {
-        height: 40px;
-        width: 30%;
-        resize: vertical;
-        margin: 10px;  
-    }
-    .gender{
-        width: 55px;
-    }
-      label {
-        display: inline-block;
-        width: 130px;
-        text-align: right;
-        font-family: Arial;
-      }
-        
-        .flex{
-            display: flex;
-        }
-    </style>
-</head>
-<body>
-    <header class="header">
-        <h1 class="heading">CSS TUTORIAL</h1>
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="./assets/css/style.css" />
+    <title>CSS-Basics-2</title>
+  </head>
+  <body>
+    <!-- Header Section Start -->
+    <header class="bg-header w-100">
+      <h1
+        class="txt-red txt-underline font-38 font-weight-700 txt-center py-27"
+      >
+        CSS TUTORIAL
+      </h1>
     </header>
+    <!-- Header Section End -->
 
-
-   <section style="margin-top: 143px;">
-        <div class="flex">
-            <p class="number">(1)</p>
-            <div class="new" style="padding: 16px 0px;">
-                <audio controls="">
-                    <source src="https://www.w3schools.com/html/horse.ogg" type="audio/ogg">
-                </audio>
-            </div>
+    <!-- Section first start -->
+    <section class="first-section">
+      <div class="container">
+        <div class="flex border-bottom-gray gap-30">
+          <p class="font-30 font-weight-700">(1)</p>
+          <div class="bg-white p-10">
+            <audio controls>
+              <source src="./assets/audio/sample-3s.mp3" type="audio/mpeg" />
+            </audio>
+          </div>
         </div>
-        <hr class="line-1">
+      </div>
     </section>
+    <!-- Section first end -->
 
-    <section>
-        <div class="flex">
-            <p class="number">(2)</p>
-            <div class="neww" style="padding: 58px 0px;">
-                <video controls="">
-                    <source src="https://www.w3schools.com/html/mov_bbb.mp4" type="video/mp4">
-                </audio>
-            </div>
+    <!-- second section start -->
+    <section class="second-section">
+      <div class="container">
+        <div class="flex border-bottom-gray gap-30 w-100 align-center">
+          <p class="font-30 font-weight-700">(2)</p>
+          <video width="343" height="255" controls>
+            <source src="./assets/video/video.mp4" type="video/mp4" />
+          </video>
         </div>
-        <hr class="line-1">
+      </div>
     </section>
+    <!-- second section end -->
 
-    <section>
-        <div class="flex">
-            <p class="number">(3)</p>
-            <div class="neww" style="padding: 58px 0px;">
-                <iframe class="frame" width="622" height="249" loading="lazy" allowfullscreen referrerpolicy="no-referrer-when-downgrade"
-                src="https://www.google.com/maps/embed?pb=!1m16!1m12!1m3!1d2965.0824050173574!2d-93.63905729999999!3d41.998507000000004!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!2m1!1sWebFilings%2C+University+Boulevard%2C+Ames%2C+IA!5e0!3m2!1sen!2sus!4v1390839289319">
-            </iframe>
-            </div>
+    <!-- Section third start -->
+    <section class="third-section">
+      <div class="container">
+        <div class="flex border-bottom-gray gap-30 w-100">
+          <p class="font-30 font-weight-700">(3)</p>
+          <iframe
+            class="frame"
+            loading="lazy"
+            allowfullscreen
+            referrerpolicy="no-referrer-when-downgrade"
+            src="https://www.google.com/maps/embed?pb=!1m16!1m12!1m3!1d2965.0824050173574!2d-93.63905729999999!3d41.998507000000004!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!2m1!1sWebFilings%2C+University+Boulevard%2C+Ames%2C+IA!5e0!3m2!1sen!2sus!4v1390839289319"
+            width="622"
+            height="249"
+          >
+          </iframe>
         </div>
-        <hr class="line-1">
+      </div>
     </section>
+    <!-- Section third end -->
 
-    <section>
-        <div class="flex">
-            <p class="number">(4)</p>
-            <div class="neww" style="padding: 58px 0px;">
-                <table border="1 solid black">
-                    <tr>
-                      <th>Company</th>
-                      <th>Contact</th> 
-                      <th>Country</th>
-                    </tr>
-                    <tr>
-                      <td>Lorem ipsum</td>
-                      <td>sed quia consequuntur</td>
-                      <td>USA</td>
-                    </tr>
-                    <tr>
-                      <td>Lorem ipsum dolor </td>
-                      <td>commodi consequatur</td>
-                      <td>Mexico</td>
-                    </tr>
-                    <tr>
-                        <td>Lorem ipsum</td>
-                        <td>sed quia consequuntur</td>
-                        <td>USA</td>
-                      </tr>
-                  </table>
-            </div>
+    <!-- Sectio fourth start -->
+    <section class="fourth-section">
+      <div class="container">
+        <div class="flex border-bottom-gray gap-30 w-100">
+          <p class="font-30 font-weight-700">(4)</p>
+          <div class="w-100">
+            <table>
+              <tbody>
+                <tr>
+                  <th
+                    class="font-weight-700 bg-sky-blue txt-white line-height-21 text-align-left w-50"
+                  >
+                    Company
+                  </th>
+                  <th
+                    class="font-weight-700 bg-sky-blue txt-white line-height-21 text-align-left w-30"
+                  >
+                    Contact
+                  </th>
+                  <th
+                    class="font-weight-700 bg-sky-blue txt-white line-height-21 text-align-left"
+                  >
+                    Country
+                  </th>
+                </tr>
+                <tr>
+                  <td class="font-16 font-weight-700">Lorem ipsum</td>
+                  <td class="font-16 font-weight-700">Maria Anders</td>
+                  <td class="font-16 font-weight-700">Sweden</td>
+                </tr>
+                <tr>
+                  <td class="font-16 font-weight-700">Lorem ipsum dolor</td>
+                  <td class="font-16 font-weight-700">Christina Berglund</td>
+                  <td class="font-16 font-weight-700">Germany</td>
+                </tr>
+                <tr>
+                  <td class="font-16 font-weight-700">Lorem ipsum quia</td>
+                  <td class="font-16 font-weight-700">Francisco Chang</td>
+                  <td class="font-16 font-weight-700">Mexico</td>
+                </tr>
+              </tbody>
+            </table>
+          </div>
         </div>
-        <hr class="line-1">
+      </div>
     </section>
+    <!-- Sectio fourth end -->
 
-    <section>
-        <div class="flex">
-            <p class="number">(5)</p>
-            <div class="neww" style="padding: 58px 0px;">
-                
-               <form>
-                    <div>
-                        <label>First Name: </label>
-                        <input type="text"placeholder="First Name">
-                    </div>
-                  <div>
-                    <label>Middle Name: </label>
-                    <input type="text"placeholder="Middle Name">
-                  </div>
-                  <div>
-                    <label>Last Name: </label>
-                    <input type="text"placeholder="Last Name">
-                  </div>
-                    
-                    <label>Middle Name: </label>
-                    <input type="text" placeholder="Middle Name"><br>
-                    <label>Last Name: </label>
-                    <input type="text"placeholder="Last Name"><br>
-                    <label>Email Id: </label>
-                    <input type="email"placeholder="Email Id"><br>
-                    <label>Mobile Number: </label>
-                    <input type="text" placeholder="Mobile Number"><br>
-                    <label>Date: </label>
-                    <input type="date"><br>
-                    <label>Date & Time: </label>
-                    <input type="datetime-local"><br>
-                    <label>Gender: </label>
-                    <input type="radio" id="male" name="Gender" value="male">
-                    <label for="male" class="gender">Male</label>
-                    <input type="radio" id="female" name="Gender" value="gender">
-                    <label for="female" class="gender">Female</label><br>
-                    <label for="city">Select City:</label>
-                    <select name="city" id="city">
-                    <option value="value" selected>--Select City--</option>
-                      <option value="ahm">Ahmedabad</option>
-                      <option value="srt">Surat</option>
-                      <option value="rajkt">Rajkot</option>
-                      <option value="vad">Vadodra</option>
-                    </select><br>
-                    <label>Languages: </label>
-                    <input type="radio" id="eng" name="lang" value="english">
-                    <label for="eng" class="gender">English</label>
-                    <input type="radio" id="guj" name="lang" value="gujarati">
-                    <label for="guj" class="gender">Gujarati</label>
-                    <input type="radio" id="hn" name="lang" value="hindi">
-                    <label for="hn" class="gender">Hindi</label><br>
-
-                    <label>Folder: </label>
-                    <input type="file"><br>
-
-                    <label>Password: </label>
-                    <input type="password"><br>
-
-                    <label>Color: </label>
-                    <input type="color"><br>
-
-                    <label>Range: </label>
-                    <input type="range" id="vol" name="vol" min="0" max="50"><br>
-
-                    <input type="submit" value="Submit" style="width: 99px;height: 44px;background:black;color:white;margin-right: 10px;margin-left: 60px;margin-top: 20px;cursor:pointer;"> <input type="Reset" value="Reset" style="width: 99px;height: 44px;background:black;color:white;cursor:pointer;">
-               </form>
+    <!-- Fifth Section Start -->
+    <section class="fifth-section">
+      <div class="container">
+        <div class="flex border-bottom-gray gap-30 w-100">
+          <p class="font-30 font-weight-700">(5)</p>
+          <form action="#" method="post" class="w-100 flex flex-dir-col gap-20">
+            <div class="flex align-center gap-10 w-50">
+              <label class="font-weight-700 w-30">First Name:</label>
+              <input
+                class="input-border p-10"
+                type="text"
+                name="name"
+                placeholder="First Name"
+              />
             </div>
-        </div>
-        <hr class="line-1">
-    </section>
-
-    <section>
-        <div class="flex">
-            <p class="number">(6)</p>
-            <div class="neww" style="padding: 58px 0px;">
-                <table border="1 solid black" style="width: 990px;height:46px;">
-                    <tr>
-                      <th>Company</th>
-                      <th>Contact</th> 
-                      <th>Country</th>
-                    </tr>
-                  </table>
+            <div class="flex align-center gap-10 w-50">
+              <label class="font-weight-700 w-30">Middle Name:</label>
+              <input
+                class="input-border p-10"
+                type="text"
+                name="mname"
+                placeholder="Middle Name"
+              />
             </div>
+            <div class="flex align-center gap-10 w-50">
+              <label class="font-weight-700 w-30">Last Name:</label>
+              <input
+                class="input-border p-10"
+                type="text"
+                name="lname"
+                placeholder="Last Name"
+              />
+            </div>
+            <div class="flex align-center gap-10 w-50">
+              <label class="font-weight-700 w-30">Email Id:</label>
+              <input
+                class="input-border p-10"
+                type="email"
+                name="email"
+                placeholder="Email Id"
+              />
+            </div>
+            <div class="flex align-center gap-10 w-50">
+              <label class="font-weight-700 w-30">Mobile Number:</label>
+              <input
+                class="input-border p-10"
+                type="number"
+                name="mobile"
+                placeholder="Mobile Number"
+              />
+            </div>
+            <div class="flex align-center gap-10 w-50">
+              <label class="font-weight-700 w-30">Date:</label>
+              <input class="input-border" type="date" name="date" />
+            </div>
+            <div class="flex align-center gap-10 w-50">
+              <label class="font-weight-700 w-30">Date & Time:</label>
+              <input
+                class="input-border"
+                type="datetime-local"
+                name="datetime"
+              />
+            </div>
+            <div class="flex align-center gap-10 w-50 px-10">
+              <label class="font-weight-700 w-30">Gender:</label>
+              <input
+                id="male"
+                class="border-input"
+                type="radio"
+                name="gender"
+              />
+              <label for="male" class="ml-10">Male</label>
+              <input
+                class="border-input ml-20"
+                type="radio"
+                name="gender"
+                id="female"
+              />
+              <label for="female" class="ml-10">Female</label>
+            </div>
+            <div class="flex align-center gap-10 w-50 px-10">
+              <label class="font-weight-700 w-30">Select City:</label>
+              <select class="bg-input h-unset" name="city" id="city">
+                <option selected><span>--Select City--</span></option>
+                <option>Ahmedabad</option>
+                <option>Vadodra</option>
+                <option>Surat</option>
+                <option>Rajkot</option>
+              </select>
+            </div>
+            <div class="flex align-center gap-10 w-50 px-10">
+              <label class="font-weight-700 w-30">Languages:</label>
+              <input id="eng" class="w-40" type="radio" name="name" /><label
+                for="eng"
+                class="ml-10"
+                >English</label
+              >
+              <input
+                id="guj"
+                class="w-40 ml-20"
+                type="radio"
+                name="name"
+              /><label for="guj" class="ml-10">Gujarati</label>
+              <input
+                id="hindi"
+                class="w-40 ml-20"
+                type="radio"
+                name="name"
+              /><label for="hindi" class="ml-10">Hindi</label>
+            </div>
+            <div class="flex align-center gap-10 w-50 px-10">
+              <label for="folder" class="font-weight-700 w-30">Folder:</label>
+              <label class="custom-file-upload">
+                <input id="file-upload" type="file" />
+                Choose File
+              </label>
+              <span class="ml-10" id="file-chosen">No File Selected</span>
+            </div>
+            <div class="flex align-center gap-10 w-50">
+              <label class="font-weight-700 w-30">Password:</label>
+              <input class="w-40 input-border" type="password" name="name" />
+            </div>
+            <div class="flex align-center gap-10 w-50 px-10">
+              <label class="font-weight-700 w-30">Color:</label>
+              <input class="w-40" type="color" />
+            </div>
+            <div class="flex align-center gap-10 w-50 px-10">
+              <label class="font-weight-700 w-30">Range:</label>
+              <input
+                class="w-40"
+                type="range"
+                name="name"
+                placeholder="First Name"
+              />
+            </div>
+
+            <div class="flex gap-10">
+              <button class="btn-submit bg-btn-primary" type="submit">
+                Submit
+              </button>
+              <button class="btn-reset bg-btn-primary" type="reset">
+                Reset
+              </button>
+            </div>
+          </form>
         </div>
-        <hr class="line-1">
+      </div>
     </section>
-</body>
+    <!-- Fifth Section End -->
+
+    <!-- Six section start -->
+    <section class="sixth-section">
+      <div class="container">
+        <div class="flex border-bottom-gray gap-30 w-100">
+          <p class="font-30 font-weight-700">(6)</p>
+          <div class="w-100">
+            <table>
+              <tbody>
+                <tr>
+                  <th
+                    class="font-weight-700 bg-sky-blue txt-white line-height-21 w-50"
+                  >
+                    Company
+                  </th>
+                  <th
+                    class="font-weight-700 bg-sky-blue txt-white line-height-21 w-30"
+                  >
+                    Contact
+                  </th>
+                  <th
+                    class="font-weight-700 bg-sky-blue txt-white line-height-21"
+                  >
+                    Country
+                  </th>
+                </tr>
+              </tbody>
+            </table>
+          </div>
+        </div>
+      </div>
+    </section>
+    <!-- Six Section end -->
+  </body>
 </html>
