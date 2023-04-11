@@ -65,6 +65,7 @@ body {
     background: #FFF8EF;
 }
 
+/* Container */
 .container {
     max-width: 1180px;
     margin: 0 auto;
@@ -144,6 +145,7 @@ body {
     line-height: 21px;
 }
 
+/* Colors */
 .txt-red {
     color: #FF0000;
 }
@@ -220,6 +222,7 @@ body {
     padding: 10px;
 }
 
+/* Border And section padding */
 .border-bottom-gray {
     padding-top: 50px;
     padding-bottom: 50px;
