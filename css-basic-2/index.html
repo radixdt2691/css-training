@@ -4,6 +4,7 @@
     <meta charset="UTF-8" />
     <meta http-equiv="X-UA-Compatible" content="IE=edge" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.6.3/jquery.min.js"></script>
     <link rel="stylesheet" href="./assets/css/style.css" />
     <title>CSS-Basics-2</title>
   </head>
@@ -296,5 +297,14 @@
       </div>
     </section>
     <!-- Six Section end -->
+    <script>
+        const actualBtn = document.getElementById('file-upload');
+    
+        const fileChosen = document.getElementById('file-chosen');
+    
+        actualBtn.addEventListener('change', function(){
+          fileChosen.textContent = this.files[0].name
+        })
+      </script>
   </body>
 </html>
