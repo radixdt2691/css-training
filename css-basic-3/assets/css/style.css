@@ -67,7 +67,7 @@ table {
 }
 
 body {
-    font-family: 'Arial',sans-serif;
+    font-family: 'Arial', sans-serif;
     font-size: 20px;
     color: #000000;
 }
@@ -117,7 +117,7 @@ body {
     color: #3092F9;
 }
 
-.txt-white{
+.txt-white {
     color: #FFFFFF;
 }
 
@@ -129,7 +129,7 @@ body {
     background: #FF5151;
 }
 
-.bg-banner{
+.bg-banner {
     background: #EAEAEA;
 }
 
@@ -175,19 +175,21 @@ img {
 }
 
 /* Custom Widths */
-.w-65{
+.w-65 {
     width: 65%;
 }
 
 /* button */
-.btn-view-more{
+.btn-view-more {
     padding: 15px 36px;
     background: #000000;
 }
-.btn-view-more:hover{
+
+.btn-view-more:hover {
     background: #9B9B9B;
     color: black;
 }
+
 /* Display */
 .flex {
     display: flex;
@@ -243,12 +245,12 @@ img {
     gap: 58px;
 }
 
-.gap-47{
+.gap-47 {
     gap: 47px;
 }
 
 /* Padding */
-.p-50{
+.p-50 {
     padding: 50px;
 }
 
@@ -277,9 +279,11 @@ img {
 .ml-40 {
     margin-left: 40px;
 }
-.ml-28{
+
+.ml-28 {
     margin-left: 28px;
 }
+
 /* Section */
 section {
     padding-top: 100px;
@@ -340,22 +344,24 @@ header {
 }
 
 /* list section */
-.listbox-shadow{
+.listbox-shadow {
     box-shadow: 0px 4px 20px rgba(175, 175, 175, 0.1);
     border-radius: 20px;
 }
-.padding-listbox{
+
+.padding-listbox {
     padding: 50px;
 }
-.border-list-primary{
+
+.border-list-primary {
     border: 1px solid #FF0000;
 }
 
-.border-list-skyblue{
+.border-list-skyblue {
     border: 1px solid #3092F9;
 }
 
-.border-list-yellow{
+.border-list-yellow {
     border: 1px solid #FBA333;
 }
 
@@ -404,9 +410,11 @@ header {
     .input-search {
         min-width: unset;
     }
-    .banner-container{
+
+    .banner-container {
         padding: 0 20px;
     }
+
     .font-48 {
         font-size: 45px;
     }
@@ -450,13 +458,14 @@ header {
         flex-direction: column;
     }
 
-    .list-container{
+    .list-container {
         padding: 0 20px;
     }
 
     .list-section .main-list .col-4 {
         width: 100%;
     }
+
     .flex-dir-col-rev-lg {
         flex-direction: column-reverse;
     }
@@ -512,9 +521,11 @@ header {
     .flex-dir-col-md {
         flex-direction: column;
     }
-    .flex-dir-col-md-rev{
+
+    .flex-dir-col-md-rev {
         flex-direction: column-reverse;
     }
+
     img {
         object-fit: cover;
         width: 100%;
