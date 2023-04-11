@@ -280,6 +280,7 @@ td {
 
 .fifth-section input[type=text], .fifth-section input[type=email], .fifth-section input[type=number] {
     width: 50%;
+    font-size: 18px;
     height: auto;
 }
 
@@ -302,8 +303,8 @@ td {
     width: 25%;
     height: 26px;
     background: #DADADA;
-
-}
+    font-size: 18px;
+}   
 
 .fifth-section input[type=color] {
     width: 14%;
