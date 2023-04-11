@@ -65,6 +65,8 @@ body {
     background: #FFF8EF;
 }
 
+/* Container */
+
 .container {
     max-width: 1180px;
     margin: 0 auto;
@@ -72,11 +74,14 @@ body {
     padding: 0 15px;
 }
 
+/* image */
+
 img {
     max-width: 100%;
     height: 100%;
 }
 
+/* Custom widths */
 .w-100 {
     width: 100%;
 }
@@ -85,12 +90,8 @@ img {
     width: 86%;
 }
 
-.w-25 {
-    width: 25%;
-}
-
-.w-23 {
-    width: 23%;
+.w-75 {
+    width: 75%;
 }
 
 .w-50 {
@@ -99,6 +100,14 @@ img {
 
 .w-36 {
     width: 36%;
+}
+
+.w-25 {
+    width: 25%;
+}
+
+.w-23 {
+    width: 23%;
 }
 
 /* Font Size */
@@ -226,10 +235,6 @@ img {
     text-decoration: underline;
 }
 
-/* Width */
-.w-75 {
-    width: 75%;
-}
 
 /* Display */
 .flex {
@@ -403,6 +408,12 @@ img {
     border-top: 1px dashed #D1D1D1
 }
 
+
+.border-radius-26 {
+    border-radius: 26px;
+}
+
+
 /* Main Css */
 header {
     position: fixed;
@@ -415,6 +426,7 @@ header {
     box-shadow: 0px 4px 9px rgba(67, 67, 67, 0.2);
 }
 
+/* Section-two */
 .opacity-80 {
     opacity: 0.8;
 }
@@ -435,16 +447,15 @@ header {
     opacity: 0.4;
 }
 
+/* txt-wrapper section */
+
 .txt-wrapper .content-wrapper {
     max-width: 53%;
     height: auto;
     padding: 35px 15px;
 }
 
-.border-radius-26 {
-    border-radius: 26px;
-}
-
+/* buttons */
 .bg-btn-1 {
     background: #FB6050;
 }
@@ -459,6 +470,7 @@ header {
     border: 1px solid #FB6050;
 }
 
+/* Section nine */
 .section-nine .div-wrapper {
     width: 83%;
     height: auto;
