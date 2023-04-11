@@ -226,7 +226,9 @@
               /><label for="hindi" class="ml-10">Hindi</label>
             </div>
             <div class="flex align-center gap-10 w-50 px-10">
-              <label for="folder" class="font-weight-700 w-30">Folder:</label>
+              <label for="file-upload" class="font-weight-700 w-30"
+                >Folder:</label
+              >
               <label class="custom-file-upload">
                 <input id="file-upload" type="file" />
                 Choose File
@@ -243,12 +245,7 @@
             </div>
             <div class="flex align-center gap-10 w-50 px-10">
               <label class="font-weight-700 w-30">Range:</label>
-              <input
-                class="w-40"
-                type="range"
-                name="name"
-                placeholder="First Name"
-              />
+              <input class="w-40" type="range" name="name" />
             </div>
 
             <div class="flex gap-10">
@@ -298,13 +295,13 @@
     </section>
     <!-- Six Section end -->
     <script>
-        const actualBtn = document.getElementById('file-upload');
-    
-        const fileChosen = document.getElementById('file-chosen');
-    
-        actualBtn.addEventListener('change', function(){
-          fileChosen.textContent = this.files[0].name
-        })
-      </script>
+      const actualBtn = document.getElementById("file-upload");
+
+      const fileChosen = document.getElementById("file-chosen");
+
+      actualBtn.addEventListener("change", function () {
+        fileChosen.textContent = this.files[0].name;
+      });
+    </script>
   </body>
 </html>
