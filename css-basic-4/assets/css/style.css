@@ -365,7 +365,7 @@ header {
 }
 
 .search ::placeholder {
-    font-family: 'nunitosans-regular';
+    font-family: 'nunitosans-regular',sans-serif;
     font-size: 16px;
     color: #9B9B9B;
 }
@@ -424,7 +424,7 @@ input[type="file"] {
 .user-form input::placeholder {
     font-size: 18px;
     color: #DADADA;
-    font-family: 'Arial';
+    font-family: 'Arial',sans-serif;
 }
 
 .btn-submit{
