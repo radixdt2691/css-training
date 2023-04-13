@@ -568,4 +568,10 @@ header {
     body {
         font-size: 16px;
     }
+    .align-center-sm{
+        align-items: center;
+    }
+    .w-100-sm{
+        width: 100%;
+    }
 }
